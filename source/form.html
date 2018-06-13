@@ -28,7 +28,158 @@
       </h2>
     </section>
   </header>
-  <main class="main"></main>
+  <main class="main">
+    <form class="main__form form" action="https://echo.htmlacademy.ru" method="get">
+      <div class="form__wrapper">
+        <section class="description">
+          <div class="container">
+            <p class="description__text">
+              Заполните анкету и мы подберем программу питания для вашего кота
+            </p>
+          </div>
+        </section>
+        <section class="form__personal personal">
+            <div class="personal__wrapper">
+              <label class="personal__label">
+                <span class="personal__acronym">
+                  Имя:*
+                </span>
+                <input class="personal__input" name="name" type="text" placeholder="Барсик" required>
+              </label>
+              <label class="personal__label">
+                <span class="personal__acronym">
+                  Вес (кг):*
+                </span>
+                <input class="personal__input" name="weight" type="text" placeholder="7" required>
+              </label>
+              <label class="personal__label">
+                <span class="personal__acronym">
+                  Возраст (лет):
+                </span>
+                <input class="personal__input" type="text" name="age" placeholder="7">
+              </label>
+            </div>
+        </section>
+        <section class="form__applets form-applets">
+            <div class="form-applets__wrapper">
+              <p class="form-applets__description">
+                С каким приложением <span>путешествовали?</span>
+              </p>
+              <div class="form-applets__label-wrapper">
+                <label class="form-applets__label">
+                  <input class="form-applets__radio" type="radio" name="target" value="mass_lost" checked>
+                  <span class="form-applets__indicator"></span>
+                  <span class="form-applets__text">Похудение</span>
+                </label>
+                <label class="form-applets__label">
+                  <input class="form-applets__radio" type="radio" name="target" value="mass">
+                  <span class="form-applets__indicator"></span>
+                  <span class="form-applets__text">Набор массы</span>
+                </label>
+                <label class="form-applets__label">
+                  <input class="form-applets__radio" type="radio" name="target" value="dont_know">
+                  <span class="form-applets__indicator"></span>
+                  <span class="form-applets__text">Не знаю (нужен ваш совет)</span>
+                </label>
+              </div>
+            </div>
+        </section>
+        <section class="form__user-contacts user-contacts">
+            <div class="user-contacts__wrapper">
+              <p class="user-contacts__description">
+                Контактные данные (владельца кота)
+              </p>
+              <div class="user-contacts__label-wrapper">
+                <label class="user-contacts__label">
+                  <span class="user-contacts__text">
+                    E-mail:*
+                  </span>
+                  <input class="user-contacts__input" type="email" name="usremail" placeholder="Kuklachev@gmail.com">
+                  <span class="user-contacts__svg-wrapper">
+                    <svg class="user-contacts__svg-icon" width="20px" height="19px">
+                      <use xlink:href="#icon-mail"></use>
+                    </svg>
+                  </span>
+                </label>
+                <label class="user-contacts__label">
+                  <span class="user-contacts__text">
+                    Телефон:*
+                  </span>
+                  <input class="user-contacts__input" type="tel" name="usrtel" placeholder="8(960) 900-60-90" required>
+                  <span class="user-contacts__svg-wrapper">
+                    <svg class="user-contacts__svg-icon" width="20px" height="19px">
+                      <use xlink:href="#icon-phone"></use>
+                    </svg>
+                  </span>
+                </label>
+              </div>
+            </div>
+        </section>
+        <section class="form__area area">
+          <div class="area__wrapper">
+            <p class="area__description">
+              Комментарий
+            </p>
+            <div class="form__textarea-wrapper">
+              <textarea class="area__area" name="area__area" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
+            </div>
+          </div>
+        </section>
+        <section class="form__achievements achievements">
+            <div class="achievements__wrapper">
+              <p class="achievements__description">
+                Дополнительно
+              </p>
+              <div class="achievements__label-wrapper">
+                <label class="achievements__label achievements__sweetener">
+                  <input class="achievements__input" type="checkbox" name="sweetener" value="sweetener" checked>
+                  <span class="achievements__indicator" aria-label="Сахарозаменитель"></span>
+                  <span class="achievements__text">
+                    Сахарозаменитель
+                  </span>
+                </label>
+                <label class="achievements__label achievements__water">
+                  <input class="achievements__input" type="checkbox" name="water" value="water" checked>
+                  <span class="achievements__indicator" aria-label="Питьевая вода"></span>
+                  <span class="achievements__text">
+                    Питьевая вода
+                  </span>
+                </label>
+                <label class="achievements__label achievements__milk">
+                  <input class="achievements__input" type="checkbox" name="milk" value="milk">
+                  <span class="achievements__indicator" aria-label="Молоко"></span>
+                  <span class="achievements__text">
+                    Молоко
+                  </span>
+                </label>
+                <label class="achievements__label achievements__vitamins">
+                  <input class="achievements__input" type="checkbox" name="vitamins" value="vitamins">
+                  <span class="achievements__indicator" aria-label="Витамины"></span>
+                  <span class="achievements__text">
+                    Витамины
+                  </span>
+                </label>
+              </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="form__send send">
+          <div class="send__wrapper">
+            <div class="form__button-wrapper">
+              <button class="form__button form-button" type="submit">Отправить заявку</button>
+            </div>
+            <div class="form__required required">
+              <p class="required__description">
+                * — обязательные поля
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </main>
   <footer class="footer"></footer>
 </body>
 </html>
