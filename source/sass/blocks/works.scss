@@ -1,0 +1,37 @@
+.works__title {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+.works__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.works__item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.works__icon-wrapper {
+  display: block;
+  padding: 10px;
+  flex: 0 0 auto;
+  font-size: 0;
+  background-color: #68b738;
+  box-sizing: border-box;
+}
+
+.works__text {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  color: #444444;
+}

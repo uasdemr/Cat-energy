@@ -1,0 +1,29 @@
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+ @media (min-width: $tablet-width) {
+  .container {
+    width: 768px;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1250px;
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .container {
+    &--other {
+      width: 1150px;
+      padding: 0 50px;
+    }
+  }
+}

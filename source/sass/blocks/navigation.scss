@@ -1,0 +1,38 @@
+.navigation {
+  position: relative;
+}
+
+.navigation__toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.navigation__logo {
+  display: block;
+  padding: 11px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation__item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navigation__link {
+  display: block;
+  padding: 17px 20px;
+  font-family: Oswald;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
