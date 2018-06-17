@@ -2,6 +2,12 @@
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
+  color: #ffffff;
+
+  &--other {
+    background-image: none;
+    color: #111111;
+  }
 }
 
 .info__wrapper {
@@ -18,7 +24,10 @@
   line-height: 36px;
   font-weight: normal;
   text-align: center;
-  color: #ffffff;
+
+  &--other {
+    line-height: 60px;
+  }
 }
 
 .info__text {
@@ -27,7 +36,6 @@
   padding-bottom: 300px;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   background-image: url("../img/index-can-mobile@1x.png");

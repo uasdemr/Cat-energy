@@ -1,0 +1,43 @@
+.last {
+  padding-top: 25px;
+  padding-bottom: 24px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+.last__img-wrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+.last__title {
+  margin: 0;
+  margin-top: 25px;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+}
+
+.last__text {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
+
+.last__link {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-family: Oswald;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #222222;
+  background-color: #f2f2f2;
+}

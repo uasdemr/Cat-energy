@@ -1,0 +1,129 @@
+.example {
+  background-color: #f2f2f2;
+  padding-bottom: 30px;
+}
+
+.example__title {
+  margin: 0;
+  font-size: 38px;
+  line-height: 60px;
+  font-family: Oswald;
+  font-weight: normal;
+  color: #111111;
+}
+
+.example__notation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example__item {
+  position: relative;
+  margin-top: 20px;
+  flex: 0 0 45%;
+}
+
+.example__kg,
+.example__days {
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Oswald;
+  text-align: center;
+  color: #111111;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+}
+
+.example__text {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example__sub {
+  position: absolute;
+  left: 20px;
+  bottom: -15px;
+  width: 85px;
+  display: flex;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #444444;
+  background-color: #f2f2f2;
+}
+
+.example__costs {
+  margin: 0;
+  margin-top: 30px;
+  flex: 1 1 auto;
+  font-family: Oswald;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+}
+
+.example__range-wrapper {
+  padding: 0 40px;
+  padding-top: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../img/before-mobile@1x.png");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.example__range {
+  //flex: 1 1 82px;
+  width: 82px;;
+}
+
+.example__controls {
+  position: relative;
+  //height: 19px;
+  //padding-top: 17px;
+  //padding-right: 22px;
+  //padding-left: 22px;
+  //background-color: #aabbb1;
+  //border-radius: 50px;
+}
+
+.example__toggle {
+  display: none;
+}
+
+.example__controls .example__scale {
+  display: flex;
+  align-items: center;
+  height: 12px;
+  padding: 0 5px;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.example__controls .example__bar {
+  width: 50%;
+  height: 6px;
+  border-radius: 10px;
+  background: #68b738;
+  //margin-left: 10%;
+}
+
+.example__was,
+.example__become {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  color: #111111;
+}

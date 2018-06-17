@@ -1,5 +1,6 @@
 .navigation {
   position: relative;
+  color: #111111;
 }
 
 .navigation__toggle {
@@ -10,10 +11,34 @@
 
 .navigation__logo {
   display: block;
-  padding: 11px 20px;
+  padding: 22px 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Oswald;
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
+  color: #111111;
   border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  span {
+    position: relative;
+  }
+
+  span:before {
+    position: absolute;
+    left: -95px;
+    top: -4px;
+    content: "";
+    width: 33px;
+    height: 38px;
+    background-image: url("../img/mstile-150x150.png");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center -15px;
+  }
 }
 
 .navigation__list {
@@ -31,8 +56,10 @@
   padding: 17px 20px;
   font-family: Oswald;
   font-size: 20px;
-  color: #000000;
+  color: #111111;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
+  box-sizing: border-box;
 }
