@@ -1,13 +1,16 @@
-.contacts__wrapper {
-  min-width: 320px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  box-sizing: border-box;
+.contacts {
 
   &--other {
     background-color: #f2f2f2;
   }
+}
+
+.contacts__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .contacts__title {
