@@ -1,5 +1,6 @@
 .navigation {
   position: relative;
+  font-size: 20px;
   color: #111111;
 }
 
@@ -55,11 +56,41 @@
   display: block;
   padding: 17px 20px;
   font-family: Oswald;
-  font-size: 20px;
   color: #111111;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
   box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  .navigation__toggle {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .navigation__item,
+  .navigation__logo {
+    border: none;
+  }
+
+  .navigation__logo {
+    padding-left: 120px;
+  }
+
 }

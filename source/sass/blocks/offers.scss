@@ -25,6 +25,10 @@
   line-height: 18px;
   color: #444444;
   box-sizing: border-box;
+
+  br {
+    display: none;
+  }
 }
 
 .offers__link-wrapper {
@@ -42,4 +46,44 @@
   text-decoration: none;
   color: #111111;
   border-top: 1px solid #d9d9d9;
+}
+
+@media (min-width: $tablet-width) {
+  .offers__article {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .offers__title {
+    font-size: 36px;
+    line-height: 37px;
+    text-align: left;
+  }
+
+  .offers__text {
+    padding-left: 0;
+    padding-right: 290px;
+    font-size: 16px;
+    line-height: 24px;
+
+    br {
+      display: inline;
+    }
+  }
+
+  .offers__link-wrapper {
+    padding: 0;
+  }
+
+  .offers__link {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+  }
 }
