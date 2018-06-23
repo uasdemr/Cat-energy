@@ -91,3 +91,21 @@
     letter-spacing: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .works__title {
+    padding-left: 40px;
+  }
+
+  .works__list {
+    padding: 0 40px;
+  }
+
+  .works__item {
+    flex: 0 0 245px;
+  }
+
+  .works__text {
+    padding-right: 20px;
+  }
+}

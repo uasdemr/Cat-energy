@@ -68,4 +68,31 @@
     display: inline-block;
     margin-top: 15px;
   }
+
+  .contacts__iframe {
+    height: 396px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    position: relative;
+  }
+
+  .contacts__wrapper {
+    position: absolute;
+    top: 95px;
+    left: 100px;
+    width: 570px;
+    background-color: #ffffff;
+  }
+
+  .contacts__address {
+    flex: 0 0 30%;
+    text-align: left;
+  }
+
+  .contacts__iframe {
+    height: 400px;
+  }
 }

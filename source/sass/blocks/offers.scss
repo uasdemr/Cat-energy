@@ -87,3 +87,24 @@
     border: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .offers__article-wrapper {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .offers__article {
+    margin-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 0 0 570px;
+    box-sizing: border-box;
+  }
+
+  .offers__text {
+    padding-right: 0;
+  }
+}

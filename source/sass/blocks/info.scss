@@ -98,3 +98,15 @@
     text-align: left;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .info {
+    background-image: url("../img/index-can-desktop@1x.png");
+    background-position: center 0;
+  }
+
+  .info__wrapper {
+    width: 1440px;
+    padding: 25px 600px 420px 100px;
+  }
+}
