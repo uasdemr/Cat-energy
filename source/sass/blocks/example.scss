@@ -83,8 +83,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // background-image: url("../img/before-mobile@1x.png");
-  // background-repeat: no-repeat;
   box-sizing: border-box;
 
   &:before {
@@ -101,7 +99,6 @@
 }
 
 .example__range {
-  //flex: 1 1 82px;
   width: 82px;;
 }
 
@@ -134,7 +131,6 @@
   height: 6px;
   border-radius: 10px;
   background: #68b738;
-  //margin-left: 10%;
 }
 
 .example__was,
@@ -151,6 +147,7 @@
     padding-top: 43px;
     background-color: #ffffff;
     border-top: 1px solid #e6e6e6;
+    background-image: linear-gradient(#ffffff 55%, #eaeaea 55%, #eaeaea 100%);
   }
 
   .example__title {

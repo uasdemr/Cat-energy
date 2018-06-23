@@ -56,3 +56,27 @@
     height: 34px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    padding-top: 60px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__logo {
+    padding: 0;
+  }
+
+  .footer__list {
+    padding: 0;
+    border: none;
+  }
+
+  .footer__copyright {
+    padding: 0;
+  }
+}
