@@ -9,14 +9,11 @@
 .personal__label {
   margin-bottom: 14px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   font-family: Oswald;
   font-size: 18px;
   line-height: 18px;
-  text-transform: uppercase;
   color: #222222;
-  box-sizing: border-box;
 
   &:last-child {
     margin-bottom: 0;
@@ -30,12 +27,10 @@
 .personal__input {
   margin-left: 15px;
   padding: 5px 0 5px 10px;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   color: #444444;
-  box-sizing: border-box;
 
   &::placeholder {
-    text-transform: uppercase;
     color: rgba(68, 68, 68, 1);
 
   }
