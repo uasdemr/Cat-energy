@@ -1,0 +1,9 @@
+@media (min-width: $desktop-width) {
+  .header {
+    background-image: url("../img/index-can-desktop@1x.png"),
+                      url("../img/index-background-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: right 328px top 142px, right -40px top 0;
+    background-size: 552px 499px, 720px 696px;
+  }
+}

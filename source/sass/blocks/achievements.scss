@@ -1,0 +1,111 @@
+.achievements {
+  background: linear-gradient(#68b738);
+  background-size: 50% 3px;
+  background-repeat: no-repeat;
+  background-position: 100% 38px;
+}
+
+.achievements__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  padding: 25px 20px 0 20px;
+  font-family: Oswald;
+  box-sizing: border-box;
+}
+
+.achievements__description {
+  margin: 0;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111111;
+
+  span {
+    padding-right: 30px;
+    background-color: #ffffff;
+  }
+}
+
+.achievements__label-wrapper {
+  padding-top: 25px;
+}
+
+.achievements__label {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.achievements__text {
+  //margin-top: 25px;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.achievements__input {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+
+.achievements__indicator {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 2px solid #cfcfcf;
+  border-radius: 2px;
+
+  &:hover {
+    border-color: #000000;
+  }
+
+  &:active {
+    border-color: #d22856;
+  }
+}
+
+input[type="checkbox"]:checked + .achievements__indicator {
+  //border-color: #000000;
+
+  // &:hover {
+  //   border-color: #000000;
+  // }
+  //
+  // &:active {
+  //   border-color: #d22856;
+  // }
+}
+
+input[type="checkbox"]:checked + .achievements__indicator::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: 8px;
+  height: 18px;
+  border-right: 2px solid #6dba3f;
+  border-bottom: 2px solid #6dba3f;
+  transform: rotate(45deg);
+}
+
+input[type="checkbox"]:disabled + .achievements__indicator {
+  border-color: rgba(229, 229, 229, 1);
+}
+
+input[type="checkbox"]:checked:disabled + .achievements__indicator {
+  border-color: rgba(229, 229, 229, 1);
+}
+
+input[type="checkbox"]:checked:disabled + .achievements__indicator::before {
+  border-color: rgba(229, 229, 229, 1);
+}
+
+// .achievements__text {
+//   margin-left: 16px;
+// }

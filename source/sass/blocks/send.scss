@@ -1,0 +1,33 @@
+.send__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.send__button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background-color: #68b738;
+}
+
+.send__description-wrapper {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.send__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}

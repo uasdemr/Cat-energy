@@ -13,7 +13,7 @@
 .info__wrapper {
   width: 320px;
   margin: 0 auto;
-  padding: 25px 20px 0 20px;
+  padding: 27px 20px 0 20px;
   font-family: Oswald;
   box-sizing: border-box;
 }
@@ -34,7 +34,7 @@
 .info__text {
   margin: 0;
   padding-top: 25px;
-  padding-bottom: 300px;
+  padding-bottom: 299px;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
@@ -46,6 +46,7 @@
 
 .info__link {
   display: block;
+  margin-top: 3px;
   padding: 11px 0;
   font-size: 14px;
   line-height: 18px;
@@ -54,4 +55,69 @@
   text-decoration: none;
   color: #ffffff;
   background-color: #68b738;
+}
+
+
+@media (min-width: $tablet-width) {
+  .info {
+    background-image: url("../img/index-can-tablet@1x.jpg");
+    background-position: center 244px;
+  }
+
+  .info__wrapper {
+    width: 768px;
+    margin: 0 auto;
+    padding: 43px 30px 520px 30px;
+    color: #111111;
+  }
+
+  .info__title {
+    padding-left: 87px;
+    padding-right: 200px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  .info__text {
+    padding-left: 87px;
+    padding-top: 41px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    background-image: none;
+  }
+
+  .info__link {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 9px;
+    padding: 15px 28px 17px 25px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info {
+    background-image: none;
+  }
+
+  .info__wrapper {
+    width: 1440px;
+    padding: 102px 600px 420px 100px;
+  }
+
+  .info__text {
+    padding-top: 41px;
+  }
+
+  .info__link {
+    padding: 16px 25px;
+    padding-right: 29px;
+    margin-top: 18px;
+  }
 }
