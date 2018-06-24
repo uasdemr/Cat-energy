@@ -17,8 +17,10 @@
       <button class="navigation__toggle" type="button">X</button>
       <div class="navigation__logo-wrapper">
         <a href="#" class="navigation__logo">
-          <!-- <img src="img/logo-mobile.svg" alt="" width="190" height="40"> -->
-          <span><b>Cat</b> Energy</span>
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg 1x">
+            <img src="img/logo-mobile.svg" alt="" width="190" height="40">
+          </picture>
         </a>
       </div>
       <ul class="navigation__list">
@@ -51,7 +53,7 @@
     <section class="offers">
       <div class="container">
         <div class="offers__article-wrapper">
-          <article class="offers__article">
+          <article class="offers__article offers__article--loseweight">
             <h2 class="offers__title">
               Похудение
             </h2>
@@ -64,7 +66,7 @@
               </a>
             </div>
           </article>
-          <article class="offers__article">
+          <article class="offers__article offers__article--plump">
             <h2 class="offers__title">
               Набор массы
             </h2>
@@ -82,43 +84,45 @@
     </section>
     <section class="works">
       <div class="container">
-        <h2 class="works__title">
-          Как это работает
-        </h2>
-        <ul class="works__list">
-          <li class="works__item">
-            <div class="works__icon-wrapper">
-              <img src="img/advantage-leaf@1x.png" alt="Картинка листик" width="50" height="50">
-            </div>
-            <p class="works__text">
-              Функциональное питание содержит только полезные питательные вещества.
-            </p>
-          </li>
-          <li class="works__item">
-            <div class="works__icon-wrapper">
-              <img class="works__icon" src="img/advantage-powder@1x.png" width="50" height="50" alt="Картинка чего-то..">
-            </div>
-            <p class="works__text">
-              Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
-            </p>
-          </li>
-          <li class="works__item">
-            <div class="works__icon-wrapper">
-              <img class="works__icon" src="img/advantage-dining@1x.png" width="50" height="50" alt="..">
-            </div>
-            <p class="works__text">
-              Замените один-два приема обычной еды на наше фунцкциональное питание.
-            </p>
-          </li>
-          <li class="works__item">
-            <div class="works__icon-wrapper">
-              <img class="works__icon" src="img/advantage-clock@1x.png" width="50" height="50" alt="..">
-            </div>
-            <p class="works__text">
-              Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
-            </p>
-          </li>
-        </ul>
+        <div class="works__wrapper">
+          <h2 class="works__title">
+            Как это работает
+          </h2>
+          <ul class="works__list">
+            <li class="works__item">
+              <div class="works__icon-wrapper">
+                <img src="img/advantage-leaf@1x.png" alt="Картинка листик" width="50" height="50">
+              </div>
+              <p class="works__text">
+                Функциональное питание содержит только полезные питательные вещества.
+              </p>
+            </li>
+            <li class="works__item">
+              <div class="works__icon-wrapper">
+                <img class="works__icon" src="img/advantage-powder@1x.png" width="50" height="50" alt="Картинка чего-то..">
+              </div>
+              <p class="works__text">
+                Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+              </p>
+            </li>
+            <li class="works__item">
+              <div class="works__icon-wrapper">
+                <img class="works__icon" src="img/advantage-dining@1x.png" width="50" height="50" alt="..">
+              </div>
+              <p class="works__text">
+                Замените один-два приема обычной еды на наше фунцкциональное питание.
+              </p>
+            </li>
+            <li class="works__item">
+              <div class="works__icon-wrapper">
+                <img class="works__icon" src="img/advantage-clock@1x.png" width="50" height="50" alt="..">
+              </div>
+              <p class="works__text">
+                Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="example">
@@ -135,7 +139,7 @@
               <p class="example__kg">
                 5 кг
               </p>
-              <span class="example__sub">
+              <span class="example__sub example__sub--loseweight">
                 Снижение веса
               </span>
             </div>
@@ -143,7 +147,7 @@
               <p class="example__days">
                 60 дней
               </p>
-              <span class="example__sub">
+              <span class="example__sub example__sub--time">
                 Затрачено времени
               </span>
             </div>
@@ -173,7 +177,7 @@
     <section class="contacts">
       <div class="contacts__wrapper">
         <h3 class="contacts__title">
-          Приглашаем <br>к сотрудничеству диллеров!
+          Приглашаем <br>к сотрудничеству дилеров!
         </h3>
         <p class="contacts__address">
           ул. Большая Конюшенная, д. 19/8

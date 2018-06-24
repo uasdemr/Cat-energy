@@ -8,7 +8,7 @@
 .contacts__wrapper {
   width: 320px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 28px 20px 26px 20px;
   display: flex;
   box-sizing: border-box;
 }
@@ -45,20 +45,20 @@
 @media (min-width: $tablet-width) {
   .contacts__wrapper {
     width: 768px;
-    padding-top: 65px;
-    padding-bottom: 60px;
+    padding: 62px 30px 58px 30px;
     justify-content: space-between;
   }
 
   .contacts__title {
     padding-left: 40px;
+    padding-top: 2px;
     flex: 0 0 30%;
     font-size: 20px;
     line-height: 25px;
   }
 
   .contacts__address {
-    padding-right: 40px;
+    padding-right: 42px;
     text-align: right;
     flex: 0 0 22%;
     font-size: 16px;
@@ -66,7 +66,7 @@
 
   .contacts__city {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   .contacts__iframe {
