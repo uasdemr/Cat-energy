@@ -120,6 +120,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .works__wrapper {
+    padding-top: 72px;
+  }
+
   .works__title {
     padding-left: 40px;
   }
@@ -129,10 +133,18 @@
   }
 
   .works__item {
+    padding-top: 72px;
+    padding-bottom: 29px;
+    margin-bottom: 0;
     flex: 0 0 245px;
+
+    &::after {
+      top: 63px;
+    }
   }
 
   .works__text {
+    margin-top: 18px;
     padding-right: 20px;
   }
 }

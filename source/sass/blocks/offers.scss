@@ -157,14 +157,40 @@
   }
 
   .offers__article {
-    margin-top: 0;
+    margin: 0;
     padding-left: 50px;
     padding-right: 50px;
     flex: 0 0 570px;
     box-sizing: border-box;
+
+    &--loseweight {
+      background-size: 70px 97px, 105px 104px;
+      background-position: left 66px top 41px, left 50px top 47px;
+    }
+
+    &--plump {
+      background-size: 134px 56px, 105px 104px;
+      background-position: left 34px top 69px, left 50px top 47px;
+    }
+  }
+
+  .offers__title {
+    padding-left: 164px;
   }
 
   .offers__text {
+    padding-top: 75px;
+    padding-bottom: 0;
     padding-right: 0;
+    padding-left: 2px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .offers__link-wrapper {
+    margin-top: 12px;
+    padding-left: 2px;
   }
 }

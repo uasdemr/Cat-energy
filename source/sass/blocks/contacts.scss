@@ -82,13 +82,20 @@
   .contacts__wrapper {
     position: absolute;
     top: 95px;
-    left: 100px;
+    left: 110px;
+    padding: 63px 30px 58px 46px;
     width: 570px;
     background-color: #ffffff;
   }
 
+  .contacts__title {
+    padding-left: 30px;
+    flex: 0 0 32%;
+  }
+
   .contacts__address {
-    flex: 0 0 30%;
+    padding-right: 56px;
+    flex: 0 0 32%;
     text-align: left;
   }
 

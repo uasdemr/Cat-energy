@@ -299,10 +299,11 @@
 
 @media (min-width: $desktop-width) {
   .example {
-    background-image: linear-gradient(#ffffff 21.9%, #f2f2f2 21.9%, #f2f2f2 100%);
+    background-image: linear-gradient(#ffffff 28%, #f2f2f2 28%, #f2f2f2 100%);
   }
 
   .example__wrapper {
+    padding-top: 23px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -312,16 +313,17 @@
   }
 
   .example__title {
+    padding-top: 46px;
     padding-left: 40px;
     flex: 0 0 100%;
   }
 
   .example__notation {
-    margin-top: 65px;
+    margin-top: 76px;
     padding-left: 40px;
-    padding-right: 175px;
     padding-top: 70px;
     flex: 0 0 50%;
+    justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
 
@@ -330,16 +332,32 @@
     }
   }
 
+  .example__text {
+    padding-right: 175px;
+  }
+
+  .example__item {
+    margin-top: 68px;
+  }
+
+  .example__costs {
+    margin-left: 0;
+    padding-top: 60px;
+    padding-left: 0;
+    flex: 0 0 328px;
+    justify-content: space-between;
+  }
+
   .example__range-wrapper {
     margin-top: 0;
-    padding-top: 500px;
+    padding-top: 439px;
     padding-left: 40px;
     padding-right: 40px;
     flex: 0 0 50%;
     box-sizing: border-box;
 
     &:before {
-      top: -70px;
+      top: -116px;
       width: 50%;
       height: 516px;
       background-image: url("../img/before-desktop@1x.png");
@@ -349,7 +367,7 @@
     &:after {
       content: "";
       position: absolute;
-      top: -70px;
+      top: -116px;
       right: 0;
       width: 50%;
       height: 516px;
